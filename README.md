@@ -11,4 +11,4 @@ A simple blog website Implemented in Node js and express and using MongoDB for t
   
   # Images from the website
      
-    [first-screen.png](https://postimg.cc/6Tmbbrkw)
+    ![first-screen.png](https://postimg.cc/6Tmbbrkw)

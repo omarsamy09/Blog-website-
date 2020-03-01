@@ -10,4 +10,6 @@ A simple blog website Implemented in Node js and express and using MongoDB for t
   . EJS**
   
   # Images from the website-
- 
+   <img src="images/Home.png">
+
+   <img src="images/compose.png">

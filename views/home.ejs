@@ -1,0 +1,36 @@
+<%- include('partials/header'); -%>
+
+
+
+
+<%if(postList.length===0){%>
+  <h1 class="center-div">Write your first article just press the add button</h1>
+<%}else{%>
+  <h1 style="text-align:center; font-family:monospace;color:#0c7b93"><%=content%></h1>
+<%postList.forEach(function(element){%>
+  <div class="card" style="margin-top:10px">
+    <div class="card-header" style="background-color:#edf7fa">
+      <h1 style="text-align:center; color:#0f4c75"><a href="/posts/<%=element._id%>" style="text-decoration:none;"> <%=element.title%> </a></h1>
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+      <p class="card-text" style="font-famil:monospace;">
+        <%if(element.content.length>600){%>
+          <%=element.content.substring(0,600) + " ..."%>
+          <a href="/posts/<%=element._id%>">Read More</a>
+      <%  }else{%>
+          <%=element.content%>
+      <%  }%>
+      </p>
+        </blockquote>
+    </div>
+  </div>
+<%})}%>
+<div class="add-container">
+  <a href="/compose"> <i class="fas fa-plus-circle fa-3x"></i></a>
+</div>
+
+
+
+
+<%- include('partials/footer'); -%>

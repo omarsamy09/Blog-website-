@@ -7,5 +7,5 @@ A simple blog website Implemented in Node js and express and using MongoDB for t
   . express\
   . MongoDB\
   . Mongoose\
-  . EJS \
+  . EJS 
   

@@ -1,3 +1,11 @@
-# Blog-website-
+# The Daily Blog-
+
 A simple blog website Implemented in Node js and express and using MongoDB for the datebase
-I made this app to apply the knowledge I gained on how to use Node js and express and MongoDB
+
+# Learning outcomes
+  . Node js\
+  . express\
+  . MongoDB\
+  . Mongoose\
+  . EJS \
+  
